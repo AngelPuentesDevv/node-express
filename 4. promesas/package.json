@@ -1,20 +1,19 @@
 {
-  "name": "node-express",
+  "name": "nodejs_hexgonal",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts"
-
+    "dev": "nodemon src/index.ts "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
     "nodemon": "^3.1.10",
     "typescript": "^5.8.3"
   },
